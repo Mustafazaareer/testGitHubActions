@@ -46,3 +46,7 @@ jobs:
       - name: Print Linux Info
         run: 
           cat /etc/lsb-release
+      - name: Set up node env
+        uses: actions/setup-node@v3
+      - name: node version 
+        run: node --version
