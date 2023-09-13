@@ -49,6 +49,6 @@ jobs:
         run: node --version
       - name: prepare project dependencies
         run: | 
-          npm ci
+          npm i
       - name: run tests
         run: npm run test
